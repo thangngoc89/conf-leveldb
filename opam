@@ -4,7 +4,7 @@ maintainer: "mfp@acm.org"
 bug-reports: "https://github.com/ocaml/opam-repository/issues"
 homepage: "http://code.google.com/p/leveldb/"
 license: "BSD-3-Clause"
-build: [["cc" "-std=c++11" "-c" "test.cc"]]
+build: [["cc" "-std=c++11" "-c" "files/test.cc"]]
 depexts: [
   ["libleveldb-dev"] {os-family = "debian"}
   ["libleveldb-dev"] {os-family = "ubuntu"}
